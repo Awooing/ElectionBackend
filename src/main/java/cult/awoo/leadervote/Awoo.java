@@ -37,7 +37,7 @@ public class Awoo extends ListenerAdapter {
 
     public static void main(String[] args) throws RateLimitedException, InterruptedException, LoginException, IOException {
         jda = new JDABuilder(AccountType.BOT)
-                .setToken("Njk3NTQ5NjQ1ODQ4NzcyNjU4.Xo46AQ.iE-YXyZRMAOx2jzNE4yAswNzqfc")
+                .setToken("<owo what's this a token?>")
                 .setAutoReconnect(true)
                 .addEventListeners(new Awoo()).build();
         launchServer();
